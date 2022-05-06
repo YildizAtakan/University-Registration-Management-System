@@ -1,0 +1,16 @@
+C:\Users\User2\Desktop\MISHW2\Hw2\bin\HW2.dll.config
+C:\Users\User2\Desktop\MISHW2\Hw2\bin\HW2.dll
+C:\Users\User2\Desktop\MISHW2\Hw2\bin\HW2.pdb
+C:\Users\User2\Desktop\MISHW2\Hw2\obj\Debug\HW2.csprojAssemblyReference.cache
+C:\Users\User2\Desktop\MISHW2\Hw2\obj\Debug\HW2.Properties.Resources.resources
+C:\Users\User2\Desktop\MISHW2\Hw2\obj\Debug\HW2.csproj.GenerateResource.cache
+C:\Users\User2\Desktop\MISHW2\Hw2\obj\Debug\HW2.dll
+C:\Users\User2\Desktop\MISHW2\Hw2\obj\Debug\HW2.pdb
+C:\Users\User2\Desktop\2017502129_2\Hw2\bin\HW2.dll.config
+C:\Users\User2\Desktop\2017502129_2\Hw2\bin\HW2.dll
+C:\Users\User2\Desktop\2017502129_2\Hw2\bin\HW2.pdb
+C:\Users\User2\Desktop\2017502129_2\Hw2\obj\Debug\HW2.csprojAssemblyReference.cache
+C:\Users\User2\Desktop\2017502129_2\Hw2\obj\Debug\HW2.Properties.Resources.resources
+C:\Users\User2\Desktop\2017502129_2\Hw2\obj\Debug\HW2.csproj.GenerateResource.cache
+C:\Users\User2\Desktop\2017502129_2\Hw2\obj\Debug\HW2.dll
+C:\Users\User2\Desktop\2017502129_2\Hw2\obj\Debug\HW2.pdb
