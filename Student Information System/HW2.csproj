@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55B463E2-507E-441A-B48C-5117E8C5319B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HW2</RootNamespace>
+    <AssemblyName>HW2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress>
+    </Use64BitIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+      </Objects>
+    </PublishDatabaseSettings>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddCourseCL.aspx" />
+    <Content Include="images\divider.png" />
+    <Content Include="img1.png" />
+    <Content Include="RemoveCourseCL.aspx" />
+    <Content Include="AddStudent.aspx" />
+    <Content Include="App_Data\UserDB.accdb" />
+    <Content Include="AskForConsent.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\body.png" />
+    <Content Include="images\sidebar.png" />
+    <Content Include="ObtainProfessors.aspx" />
+    <Content Include="StudentScreen.aspx" />
+    <Content Include="styles.css" />
+    <Content Include="ResetPW.aspx" />
+    <Content Include="SubmitGrades.aspx" />
+    <Content Include="ViewConsentRequests.aspx" />
+    <Content Include="ViewCourseList.aspx" />
+    <Content Include="ViewCourseStudent.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="AdminScreen.aspx" />
+    <Content Include="ProfessorScreen.aspx" />
+    <Content Include="AddProf.aspx" />
+    <Content Include="GetStatistics.aspx" />
+    <Content Include="DeactivateUser.aspx" />
+    <Content Include="StudentChangePW.aspx" />
+    <Content Include="ProfessorChangePW.aspx" />
+    <Content Include="SystemParameters.aspx" />
+    <Content Include="AddCourse.aspx" />
+    <Content Include="ObtainStudents.aspx" />
+    <Content Include="ObtainCourses.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourseCL.aspx.cs">
+      <DependentUpon>AddCourseCL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCourseCL.aspx.designer.cs">
+      <DependentUpon>AddCourseCL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveCourseCL.aspx.cs">
+      <DependentUpon>RemoveCourseCL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveCourseCL.aspx.designer.cs">
+      <DependentUpon>RemoveCourseCL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent.aspx.cs">
+      <DependentUpon>AddStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStudent.aspx.designer.cs">
+      <DependentUpon>AddStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AskForConsent.aspx.cs">
+      <DependentUpon>AskForConsent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AskForConsent.aspx.designer.cs">
+      <DependentUpon>AskForConsent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ObtainProfessors.aspx.cs">
+      <DependentUpon>ObtainProfessors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObtainProfessors.aspx.designer.cs">
+      <DependentUpon>ObtainProfessors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentScreen.aspx.cs">
+      <DependentUpon>StudentScreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentScreen.aspx.designer.cs">
+      <DependentUpon>StudentScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPW.aspx.cs">
+      <DependentUpon>ResetPW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPW.aspx.designer.cs">
+      <DependentUpon>ResetPW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminScreen.aspx.cs">
+      <DependentUpon>AdminScreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminScreen.aspx.designer.cs">
+      <DependentUpon>AdminScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorScreen.aspx.cs">
+      <DependentUpon>ProfessorScreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfessorScreen.aspx.designer.cs">
+      <DependentUpon>ProfessorScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProf.aspx.cs">
+      <DependentUpon>AddProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProf.aspx.designer.cs">
+      <DependentUpon>AddProf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetStatistics.aspx.cs">
+      <DependentUpon>GetStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetStatistics.aspx.designer.cs">
+      <DependentUpon>GetStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeactivateUser.aspx.cs">
+      <DependentUpon>DeactivateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeactivateUser.aspx.designer.cs">
+      <DependentUpon>DeactivateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentChangePW.aspx.cs">
+      <DependentUpon>StudentChangePW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentChangePW.aspx.designer.cs">
+      <DependentUpon>StudentChangePW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfessorChangePW.aspx.cs">
+      <DependentUpon>ProfessorChangePW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfessorChangePW.aspx.designer.cs">
+      <DependentUpon>ProfessorChangePW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubmitGrades.aspx.cs">
+      <DependentUpon>SubmitGrades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubmitGrades.aspx.designer.cs">
+      <DependentUpon>SubmitGrades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemParameters.aspx.cs">
+      <DependentUpon>SystemParameters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemParameters.aspx.designer.cs">
+      <DependentUpon>SystemParameters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCourse.aspx.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCourse.aspx.designer.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObtainStudents.aspx.cs">
+      <DependentUpon>ObtainStudents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObtainStudents.aspx.designer.cs">
+      <DependentUpon>ObtainStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ObtainCourses.aspx.cs">
+      <DependentUpon>ObtainCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ObtainCourses.aspx.designer.cs">
+      <DependentUpon>ObtainCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewConsentRequests.aspx.cs">
+      <DependentUpon>ViewConsentRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewConsentRequests.aspx.designer.cs">
+      <DependentUpon>ViewConsentRequests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCourseList.aspx.cs">
+      <DependentUpon>ViewCourseList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCourseList.aspx.designer.cs">
+      <DependentUpon>ViewCourseList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCourseStudent.aspx.cs">
+      <DependentUpon>ViewCourseStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCourseStudent.aspx.designer.cs">
+      <DependentUpon>ViewCourseStudent.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58317</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

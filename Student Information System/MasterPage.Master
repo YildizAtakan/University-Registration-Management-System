@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Registration</title>
+        <link href="styles.css" rel="stylesheet" />
+
+    </head>
+
+    <body>
+
+        <div id="templatemo_wrapper">
+            <form id="form1" runat="server">
+                <div id="templatemo_menu" class="auto-style4">
+                    <ul class="auto-style1">
+                        <li><a href="#"><img src="images/logo.png" alt="Site Title" class="auto-style3" /></a></li>
+                        <li><a href="#"> Home Page</a> </li>
+                        <li><a href="#"> Academic</a></li>
+                        <li><a href="#"> Research</a></li>
+                        <li><a href="#"> University Life</a></li>
+
+                    </ul>
+                </div>
+
+                <div id="sidebar">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                    <div class="sidebar_section">
+                        <ul class="categories_list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Frquently Asked Questions</a></li>
+                            <li><a href="#">User Support</a></li>
+                            <li><a href="#">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div id="templatmeo_content">
+                    <div class="newStyle1">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                            Welcome to Registration Information System
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
